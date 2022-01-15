@@ -23,7 +23,7 @@ Note that you need a licence to install `mujoco_py`. For installation, please fo
 ### First, you need to choose codebase:
 If you want to use agents implemented on the top of [KU codebase](https://github.com/ku2482/soft-actor-critic.pytorch). 
 ```
-cd KUCodebase
+cd KUCodebase/code
 ```
 If you want to use agents implemented on the top of [REDQ original codebase](https://github.com/watchernyu/REDQ), 
 ```
