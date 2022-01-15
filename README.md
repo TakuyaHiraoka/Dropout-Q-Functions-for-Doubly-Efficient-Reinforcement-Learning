@@ -50,7 +50,7 @@ python main.py -info drq -env Hopper-v2 -seed 0 -eval_every 1000 -frames 100000 
 
 ## Results
 
-The experimental results (records of returns and estimation errors) are created under the code/runs directory.
+The experimental results (records of returns and estimation errors) are created under ``runs'' directory.
 
 ## Update
 2022/01/15 Add agents implemented on the top of REDQ original codebase. 
