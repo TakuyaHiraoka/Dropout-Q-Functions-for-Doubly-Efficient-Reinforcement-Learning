@@ -1,5 +1,9 @@
 # What is this?
+<<<<<<< HEAD
 Source code to replicate experiments provided in (``Dropout Q-Functions for Doubly Efficient Reinforcement Learning.'')(https://arxiv.org/abs/2110.02034)
+=======
+Source code to replicate experiments provided in ``[Dropout Q-Functions for Doubly Efficient Reinforcement Learning](https://arxiv.org/abs/2110.02034).''
+>>>>>>> 5c563aa8650f010fcb7344e7fc090e866eedaae1
 
 
 **NOTE**
