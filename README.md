@@ -1,7 +1,7 @@
 # What is this?
 Source code to replicate experiments provided in [``Dropout Q-Functions for Doubly Efficient Reinforcement Learning.''](https://openreview.net/forum?id=xCVJMsPv3RT)
 
-![DroqIntro](http://drive.google.com/uc?export=view&id=1pkb80Ehv6CF2lNyHtKFQrQKr9texHuPC)
+![DroqIntro](figures/DroqIntro.jpg)
 
 # Requirements
 You can install libraries using `pip install -r requirements.txt` except `mujoco_py`.
@@ -61,8 +61,8 @@ If you use REDQ original codebase, you can reproduce the results of my paper by 
 
 Overall, methods implemented on REDQ original codebase work better than KU codebase counterparts. 
 **Upper figures show performance on KU codebase. Bottom figures show performance on REDQ original codebase.**
-![REDQCode](http://drive.google.com/uc?export=view&id=19G3J1aWWscQLpuxbMsBXIRgO-lryFEam)
-See Figures 2 and 14 in [my paper](https://openreview.net/forum?id=xCVJMsPv3RT) for details. 
+![REDQCode](figures/DroqIntro.jpg)
+See Figures 2 and 14 in [my paper](figrues/UpKUCode-BoREDQCode.jpg) for details. 
 
 # Note
 
