@@ -51,18 +51,6 @@ python main.py -info drq -env Hopper-v2 -seed 0 -eval_every 1000 -frames 100000 
 
 The experimental results (records of returns and estimation errors) are created under ``runs'' directory.
 
-## Citation
-If you use this repo or find it useful, please consider citing:
-```
-@inproceedings{hiraoka2022dropout,
-title={Dropout Q-Functions for Doubly Efficient Reinforcement Learning},
-author={Takuya Hiraoka and Takahisa Imagawa and Taisei Hashimoto and Takashi Onishi and Yoshimasa Tsuruoka},
-booktitle={International Conference on Learning Representations},
-year={2022},
-url={https://openreview.net/forum?id=xCVJMsPv3RT}
-}
-```
-
 ## Tips
 DroQ is sensitive especially to target entropy (target_entropy) and (target_drop_rate). 
 
@@ -89,4 +77,16 @@ Overall, methods implemented on REDQ original codebase work better than KU codeb
 
 2022/03/08 Add citation and tips.
 
+
+## Citation
+If you use this repo or find it useful, please consider citing:
+```
+@inproceedings{hiraoka2022dropout,
+title={Dropout Q-Functions for Doubly Efficient Reinforcement Learning},
+author={Takuya Hiraoka and Takahisa Imagawa and Taisei Hashimoto and Takashi Onishi and Yoshimasa Tsuruoka},
+booktitle={International Conference on Learning Representations},
+year={2022},
+url={https://openreview.net/forum?id=xCVJMsPv3RT}
+}
+```
 
