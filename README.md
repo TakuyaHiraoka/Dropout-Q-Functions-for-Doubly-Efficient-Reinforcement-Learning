@@ -75,12 +75,8 @@ If you use REDQ original codebase, you can reproduce the results of my paper by 
 
 Overall, methods implemented on REDQ original codebase work better than KU codebase counterparts (See Figures 2 and 14 in [my paper](https://openreview.net/forum?id=xCVJMsPv3RT) for details):
 
-**Performance on KU codebase:**
-![KUCode](http://drive.google.com/uc?export=view&id=14iKfZKenAX0UvvoZUGMxVjbR-d-r4akd)
-
-**Performance on REDQ original codebase:**
-![REDQCode](http://drive.google.com/uc?export=view&id=1VdGt0-7Ebc4HLyYZoOircFCdptbUvYm3)
-
+**Upper figures show performance on KU codebase. Bottom figures show performance on REDQ original codebase.**
+![REDQCode](http://drive.google.com/uc?export=view&id=19G3J1aWWscQLpuxbMsBXIRgO-lryFEam)
 
 ## Update
 2022/01/15 Add agents implemented on the top of REDQ original codebase. 
