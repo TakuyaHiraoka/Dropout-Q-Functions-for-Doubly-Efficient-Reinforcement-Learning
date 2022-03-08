@@ -3,6 +3,7 @@ Source code to replicate experiments provided in [``Dropout Q-Functions for Doub
 
 ![DroqIntro](http://drive.google.com/uc?export=view&id=1pkb80Ehv6CF2lNyHtKFQrQKr9texHuPC)
 
+
 **NOTE**
 
 In the following part of this source code, code contained in [1] (MIT license) is used without any major changes. 
