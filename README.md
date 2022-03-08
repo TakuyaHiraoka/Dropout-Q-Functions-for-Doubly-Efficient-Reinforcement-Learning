@@ -61,8 +61,8 @@ If you use REDQ original codebase, you can reproduce the results of my paper by 
 
 Overall, methods implemented on REDQ original codebase work better than KU codebase counterparts. 
 **Upper figures show performance on KU codebase. Bottom figures show performance on REDQ original codebase.**
-![REDQCode](figures/DroqIntro.jpg)
-See Figures 2 and 14 in [my paper](figrues/UpKUCode-BoREDQCode.jpg) for details. 
+![REDQCode](figures/UpKUCode-BoREDQCode.jpg)
+See Figures 2 and 14 in [my paper](https://openreview.net/forum?id=xCVJMsPv3RT) for details. 
 
 # Note
 
