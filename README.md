@@ -73,10 +73,10 @@ If you use REDQ original codebase, you can reproduce the results of my paper by 
 | Ant       | 0.01                | 
 | Humanoid  | 0.1                 | 
 
-Overall, methods implemented on REDQ original codebase work better than KU codebase counterparts (See Figures 2 and 14 in [my paper](https://openreview.net/forum?id=xCVJMsPv3RT) for details):
-
+Overall, methods implemented on REDQ original codebase work better than KU codebase counterparts. 
 **Upper figures show performance on KU codebase. Bottom figures show performance on REDQ original codebase.**
 ![REDQCode](http://drive.google.com/uc?export=view&id=19G3J1aWWscQLpuxbMsBXIRgO-lryFEam)
+See Figures 2 and 14 in [my paper](https://openreview.net/forum?id=xCVJMsPv3RT) for details. 
 
 ## Update
 2022/01/15 Add agents implemented on the top of REDQ original codebase. 
