@@ -64,7 +64,7 @@ url={https://openreview.net/forum?id=xCVJMsPv3RT}
 ```
 
 ## Tips
-1. DroQ is sensitive especially to target entropy (target_entropy) and (target_drop_rate). 
+1: DroQ is sensitive especially to target entropy (target_entropy) and (target_drop_rate). 
 
 If you use KU codebase, you can reproduce the results of my paper by setting target_entropy and target_drop_rate as follows.
 |Environment| target_entropy | target_dropout_rate |
@@ -82,7 +82,7 @@ If you use REDQ original codebase, you can reproduce the results of my paper by 
 | Ant       | 0.01                | 
 | Humanoid  | 0.1                 | 
 
-2. Overall, methods implemented on REDQ original codebase work better than KU codebase counterparts. 
+2: Overall, methods implemented on REDQ original codebase work better than KU codebase counterparts. 
 
 ## Update
 2022/01/15 Add agents implemented on the top of REDQ original codebase. 
