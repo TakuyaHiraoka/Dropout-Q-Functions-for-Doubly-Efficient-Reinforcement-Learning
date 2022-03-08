@@ -63,8 +63,18 @@ url={https://openreview.net/forum?id=xCVJMsPv3RT}
 }
 ```
 
+## Tips
+DroQ is sensitive especially to target entropy (target_entropy) and (target_drop_rate). 
+
+If you use KU codebase, you should be able to reproduce the results of my paper by setting target_entropy and target_drop_rate as follows.
+|Environment| target_entropy | target_dropout_rate |
+| --------- | -------------- | ------------------- |
+| Hopper    | -1.0           | 0.01                | 
+
+
 ## Update
 2022/01/15 Add agents implemented on the top of REDQ original codebase. 
-2022/03/08 Add citation and tips
+
+2022/03/08 Add citation and tips.
 
 
