@@ -42,18 +42,29 @@ python main.py -info sac -env Hopper-v2 -seed 0 -eval_every 1000 -frames 100000 
 Python main.py -info redq -env Hopper-v2 -seed 0 -eval_every 1000 -frames 100000 -eval_runs 10 -gpu_id 0 -updates_per_step 20 -method redq -target_entropy -1.0
 ```
 
-#### Dr.Q agent
+#### Droq agent (also called Dr.Q agent in the first version of my Arxiv and ICLR papers)
 ```
 python main.py -info drq -env Hopper-v2 -seed 0 -eval_every 1000 -frames 100000 -eval_runs 10 -gpu_id 7 -updates_per_step 20 -method sac -target_entropy -1.0 -target_drop_rate 0.005 -layer_norm 1
 ```
-
 
 ## Results
 
 The experimental results (records of returns and estimation errors) are created under ``runs'' directory.
 
+## Citation
+If you use this repo or find it useful, please consider citing:
+```
+@inproceedings{hiraoka2022dropout,
+title={Dropout Q-Functions for Doubly Efficient Reinforcement Learning},
+author={Takuya Hiraoka and Takahisa Imagawa and Taisei Hashimoto and Takashi Onishi and Yoshimasa Tsuruoka},
+booktitle={International Conference on Learning Representations},
+year={2022},
+url={https://openreview.net/forum?id=xCVJMsPv3RT}
+}
+```
+
 ## Update
 2022/01/15 Add agents implemented on the top of REDQ original codebase. 
-
+2022/03/08 Add citation and tips
 
 
