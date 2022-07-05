@@ -67,7 +67,7 @@ Overall, methods implemented on REDQ original codebase work better than KU codeb
 ![REDQCode](figures/UpKUCode-BoREDQCode.jpg)
 See Figures 2 and 14 in [my paper](https://openreview.net/forum?id=xCVJMsPv3RT) for details. 
 
-## What if we want to improve sample efficiency with ignoring computational efficiency?
+## What if we want a very sample-efficient one by ignoring computational efficiency?
 Introduce layer normalization into REDQ with a large ensemble size (> 5).
 See Figures 12 and 20 in [my paper](https://openreview.net/forum?id=xCVJMsPv3RT) for details. 
 
