@@ -71,11 +71,15 @@ See Figures 2 and 14 in [my paper](https://openreview.net/forum?id=xCVJMsPv3RT) 
 Introduce layer normalization into REDQ with a large ensemble size (Dropout is not necessary in this case).
 See Figures 12 and 20 in [my paper](https://openreview.net/forum?id=xCVJMsPv3RT) for details. 
 
-# The limitations of DroQ. 
-## Need to tune the dropout rate.
+# The limitations of DroQ 
+## Need to tune the dropout rate
 The DroQ performance is highly dependent on the dropout rate (Figures 4 and 16 in [my paper](https://openreview.net/forum?id=xCVJMsPv3RT)), and additional samples are needed for its tuning. 
 Introducing hyperparameter-free automatic tuning of dropout rate is future work. 
 
+## Use of high UTD ratio 
+DroQ uses a high UTD ratio (frequent update of Q-networks), which is a current bottleneck in computation speed. 
+Reducing the UTD ratio without compromising sample and memory efficiency is future work.
+Using multi-step returns and high learning rates would be a promising way for this??
 
 # Note
 
