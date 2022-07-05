@@ -41,6 +41,9 @@ python main.py -info drq -env Hopper-v2 -seed 0 -eval_every 1000 -frames 100000 
 The experimental results (records of returns and estimation errors) are created under ``runs'' directory.
 
 # Tips
+
+## Hyperparameter Sensitivity of DroQ
+
 DroQ is sensitive especially to target entropy (target_entropy) and (target_drop_rate). 
 
 If you use KU codebase, you can reproduce the results of my paper by setting target_entropy and target_drop_rate as follows.
@@ -64,6 +67,10 @@ Overall, methods implemented on REDQ original codebase work better than KU codeb
 ![REDQCode](figures/UpKUCode-BoREDQCode.jpg)
 See Figures 2 and 14 in [my paper](https://openreview.net/forum?id=xCVJMsPv3RT) for details. 
 
+## What if we want to improve sample efficiency with ignoring computational efficiency?
+Introduce layer normalization into REDQ with a large ensemble size (> 5).
+See Figures 12 and 20 in [my paper](https://openreview.net/forum?id=xCVJMsPv3RT) for details. 
+
 # Note
 
 In the following part of this source code, code contained in [1] (MIT license) is used without any major changes. 
@@ -83,6 +90,7 @@ The main part of this source code is implemented by modifying the source code (M
 
 2022/03/08 Add citation and tips.
 
+2022/07/05 Update tips and add the limitations of DroQ. 
 
 # Citation
 If you use this repo or find it useful, please consider citing:
