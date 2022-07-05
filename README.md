@@ -42,7 +42,7 @@ The experimental results (records of returns and estimation errors) are created 
 
 # Tips
 
-## Hyperparameter Sensitivity of DroQ
+## Hyperparameter sensitivity of DroQ
 
 DroQ is sensitive especially to target entropy (target_entropy) and (target_drop_rate). 
 
@@ -70,6 +70,12 @@ See Figures 2 and 14 in [my paper](https://openreview.net/forum?id=xCVJMsPv3RT) 
 ## What if we want a very sample-efficient one by ignoring computational efficiency?
 Introduce layer normalization into REDQ with a large ensemble size (Dropout is not necessary in this case).
 See Figures 12 and 20 in [my paper](https://openreview.net/forum?id=xCVJMsPv3RT) for details. 
+
+# The limitations of DroQ. 
+## Need to tune the dropout rate.
+The DroQ performance is highly dependent on the dropout rate (Figures 4 and 16 in [my paper](https://openreview.net/forum?id=xCVJMsPv3RT)), and additional samples are needed for its tuning. 
+Introducing hyperparameter-free automatic tuning of dropout rate is future work. 
+
 
 # Note
 
