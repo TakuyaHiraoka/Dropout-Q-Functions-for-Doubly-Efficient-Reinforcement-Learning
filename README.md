@@ -1,6 +1,8 @@
 # What is this?
 Source code to replicate experiments provided in [``Dropout Q-Functions for Doubly Efficient Reinforcement Learning.''](https://openreview.net/forum?id=xCVJMsPv3RT) [(poster)](https://drive.google.com/file/d/1_JSuwlUsMjzo6zRaAIcXXj3__AmOvu2t/view?usp=sharing) [(slides)](https://drive.google.com/file/d/1ecq9SQ2KSNpfeblCkr6TYPz5gRk_Y4S8/view?usp=sharing) 
 
+:bear::bear:**Note:** Also, see [Ilya Kostrikov's JAX implementation of DroQ](https://github.com/ikostrikov/walk_in_the_park), which is so much faster than our DroQ implementation!:bear::bear:
+
 ![DroqIntro](figures/DroqIntro.jpg)
 
 # Requirements
