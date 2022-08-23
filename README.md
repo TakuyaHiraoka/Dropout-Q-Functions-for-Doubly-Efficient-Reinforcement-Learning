@@ -1,7 +1,7 @@
 # What is this?
 Source code to replicate experiments provided in [``Dropout Q-Functions for Doubly Efficient Reinforcement Learning.''](https://openreview.net/forum?id=xCVJMsPv3RT) [(poster)](https://drive.google.com/file/d/1_JSuwlUsMjzo6zRaAIcXXj3__AmOvu2t/view?usp=sharing) [(slides)](https://drive.google.com/file/d/1ecq9SQ2KSNpfeblCkr6TYPz5gRk_Y4S8/view?usp=sharing) 
 
-:bear::bear:**Note:** Also, see [Ilya Kostrikov's JAX implementation of DroQ](https://github.com/ikostrikov/walk_in_the_park), which is so much faster than our DroQ implementation!:bear::bear:
+:bear::bear:**Note:** Also, see [Ilya Kostrikov's JAX implementation of DroQ](https://github.com/ikostrikov/walk_in_the_park), which is so much faster than my implementation!:bear::bear:
 
 ![DroqIntro](figures/DroqIntro.jpg)
 
@@ -74,12 +74,10 @@ Introduce layer normalization into REDQ with a large ensemble size (Dropout is n
 See Figures 12 and 20 in [my paper](https://openreview.net/forum?id=xCVJMsPv3RT) for details. 
 
 # The limitations of DroQ 
-## Need to tune the dropout rate
-The DroQ performance is highly dependent on the dropout rate (Figures 4 and 16 in [my paper](https://openreview.net/forum?id=xCVJMsPv3RT)), and additional samples are needed for its tuning. 
+**Need to tune the dropout rate.** The DroQ performance is highly dependent on the dropout rate (Figures 4 and 16 in [my paper](https://openreview.net/forum?id=xCVJMsPv3RT)), and additional samples are needed for its tuning. 
 Introducing hyperparameter-free automatic tuning of dropout rate is future work. 
 
-## Use of high UTD ratio 
-DroQ uses a high UTD ratio (frequent update of Q-networks), which is a current bottleneck in computation speed. 
+**Use of high UTD ratio.** DroQ uses a high UTD ratio (frequent update of Q-networks), which is a current bottleneck in computation speed. 
 Reducing the UTD ratio without compromising sample and memory efficiency is future work.
 Using multi-step returns and high learning rates would be a promising way for this??
 
