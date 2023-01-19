@@ -33,7 +33,7 @@ python main.py -info sac -env Hopper-v2 -seed 0 -eval_every 1000 -frames 100000 
 
 ### REDQ agent
 ```
-Python main.py -info redq -env Hopper-v2 -seed 0 -eval_every 1000 -frames 100000 -eval_runs 10 -gpu_id 0 -updates_per_step 20 -method redq -target_entropy -1.0
+python main.py -info redq -env Hopper-v2 -seed 0 -eval_every 1000 -frames 100000 -eval_runs 10 -gpu_id 0 -updates_per_step 20 -method redq -target_entropy -1.0
 ```
 
 ### DroQ agent (also called Dr.Q agent in the first version of my Arxiv and ICLR papers)
