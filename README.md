@@ -5,7 +5,7 @@ Source code to replicate experiments provided in [``Dropout Q-Functions for Doub
 
 :rocket::rocket:**Note 2:** DroQ is now implemented in [Stable Baselines Jax](https://github.com/araffin/sbx), which is also much faster than my implementation!!:rocket::rocket:
 
-:musical_keyboard::musical_keyboard:**Note 3:** DroQ is used in [RoboPianist](https://kzakka.com/robopianist/) (it can learn to play [the Super Mario Bros.](https://drive.google.com/file/d/1wXDPTDfOuA_rG6GMwv7NJcELxc9gUOc-/view?usp=drive_link) and [Zelda](https://drive.google.com/file/d/1E2dnue0rSecbpVvyFcd6uO4jrGnik3Mx/view?usp=drive_link) theme songs in 400k samples)!!!:musical_keyboard::musical_keyboard:
+:musical_keyboard::musical_keyboard:**Note 3:** DroQ is used in [RoboPianist](https://kzakka.com/robopianist/) (it can learn to play [the Super Mario Bros.](https://drive.google.com/file/d/1wXDPTDfOuA_rG6GMwv7NJcELxc9gUOc-/view?usp=drive_link), [Zelda](https://drive.google.com/file/d/1E2dnue0rSecbpVvyFcd6uO4jrGnik3Mx/view?usp=drive_link), and  [EarthBound](https://drive.google.com/file/d/1ci8Km7e2Ja346O5yd4CixZKvyVsV_1eu/view?usp=drive_link) theme songs in 400k samples)!!!:musical_keyboard::musical_keyboard:
 
 
 
