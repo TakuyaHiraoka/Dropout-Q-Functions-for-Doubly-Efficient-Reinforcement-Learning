@@ -7,7 +7,7 @@ Source code to replicate experiments provided in [``Dropout Q-Functions for Doub
 
 :sheep::sheep:**Note 3:** DroQ is implemented in [SheepRL](https://github.com/Eclectic-Sheep/sheeprl)!!!:sheep::sheep:
 
-:musical_keyboard::musical_keyboard:**Note 4:** DroQ is used in [RoboPianist](https://kzakka.com/robopianist/). It can learn to play [the Super Mario Bros. theme song](https://drive.google.com/file/d/1wXDPTDfOuA_rG6GMwv7NJcELxc9gUOc-/view?usp=drive_link), The Legend of Zelda songs ([Main theme](https://drive.google.com/file/d/1E2dnue0rSecbpVvyFcd6uO4jrGnik3Mx/view?usp=drive_link) and [Song of storms](https://drive.google.com/file/d/1yUjAmf9vspt5_J8H0aZsrAEH6CZ6IP-S/view?usp=drive_link)), and Evangelion songs ([Komm, süsser Tod](https://drive.google.com/file/d/1QBdLN39EkGamiMcicb4h-8N5LIKfRtfQ/view?usp=drive_link)) in 400k samples!!!!:musical_keyboard::musical_keyboard:
+:musical_keyboard::musical_keyboard:**Note 4:** DroQ is used in [RoboPianist](https://kzakka.com/robopianist/). It can learn to play [the Super Mario Bros. theme song](https://drive.google.com/file/d/1wXDPTDfOuA_rG6GMwv7NJcELxc9gUOc-/view?usp=drive_link), The Legend of Zelda songs ([Main theme](https://drive.google.com/file/d/1E2dnue0rSecbpVvyFcd6uO4jrGnik3Mx/view?usp=drive_link) and [Song of storms](https://drive.google.com/file/d/1yUjAmf9vspt5_J8H0aZsrAEH6CZ6IP-S/view?usp=drive_link)), Pokemon BW song ([VS Rival](https://drive.google.com/file/d/1hxfCCKGPEGJQtqWIGLz40PyTqTFdPCmG/view?usp=share_link)), and Evangelion song ([Komm, süsser Tod](https://drive.google.com/file/d/1QBdLN39EkGamiMcicb4h-8N5LIKfRtfQ/view?usp=drive_link)) in 400k samples!!!!:musical_keyboard::musical_keyboard:
 
 
 
